@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn{
+  @apply my-3 mx-5 p-1 text-xs border rounded-md text-slate-100
+  bg-stone-600 border-none
+  hover:cursor-pointer hover:bg-lime-400 hover:text-black transition ease-in-out duration-200;
+}
